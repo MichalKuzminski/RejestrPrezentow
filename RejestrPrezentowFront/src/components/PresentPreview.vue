@@ -4,6 +4,7 @@
       class="q-pa-xs justify-center items-start content-center"
       style="width: 350px; height: auto"
     >
+      <h5>Edycja prezentu</h5>
       <q-card-section class="q-gutter-y-xs">
         <q-input
           outlined

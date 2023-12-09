@@ -16,7 +16,7 @@
           <img src="../assets/title.png" style="margin-top: 5px; height: 50px"
         /></q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Michał Kuźmiński 74682</div>
       </q-toolbar>
     </q-header>
 
@@ -34,7 +34,36 @@
         height="100%"
         class="absolute-bottom-left"
         :src="img"
-      />
+      >
+        <q-card
+          class="my-card text-white q-ma-md"
+          style="background: radial-gradient(circle, #096e0e 0%, #0a756f 100%)"
+        >
+          <q-card-section>
+            <div class="text-h6">
+              Aplikacja służy do zarządzania i organizacji zakupu prezentów
+              świątecznych w rodzinie
+            </div>
+          </q-card-section>
+          <q-card-section>
+            <div class="text-h6">
+              Aplikacja umożliwia wyświetlanie, dodawanie, edycję oraz usuwanie
+              prezentów (CRUD)
+            </div>
+          </q-card-section>
+          <q-card-section>
+            <div class="text-h6">
+              Aplikacja komunikuje się z bazą za pomocą dedykowanego API
+              wystawionego na osobnym backendzie
+            </div>
+          </q-card-section>
+          <q-card-section>
+            <div class="text-h6">
+              Komponenty wizualne są wykorzystane z frameworka Quasar Framework
+            </div>
+          </q-card-section>
+        </q-card>
+      </q-img>
     </q-drawer>
 
     <q-page-container>
