@@ -15,7 +15,6 @@ const getPresentsList = async () => {
 const getPresentById = async (id) => {
   try {
     const present = await axios.get(`${apiUrl}/${id}`);
-    console.log("w api ", present);
     if (!present) return {};
     return present.data;
   } catch (err) {
